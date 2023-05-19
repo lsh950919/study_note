@@ -44,7 +44,9 @@ state/observation (partial state) -> action -> reward
 ## Markov Decision Process
 All problems trying to be solved by RL is represented as an MDP
 
-1. Markov Property: probability of immediate next state only depends on the most recent state and action, and does not depend on anything prior (memory-less property)
-$$Pr(S_(t+1)=s'|S_0, S_1, ..., S_(t-1), S_t) = Pr(S_(t+1)=s'|S_t)$$
+1. **Markov Property**: probability of immediate next state only depends on the most recent state and action, and does not depend on anything prior (memory-less property)
+$$Pr(S_{t+1}=s'|S_0, S_1, ..., S_{t-1}, S_t) = Pr(S_{t+1}=s'|S_t)$$
 
+2. **State Transition Matrix**: a matrix that maps each state to it's possible transitions
 
+3. **Reward function and Value function**: to determine 
